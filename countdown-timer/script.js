@@ -3,7 +3,6 @@ const hoursE1 = document.getElementById('hours')
 const minutesE1 = document.getElementById('mins')
 const secondsE1 = document.getElementById('seconds')
 
-
 const newYears = '1 Jan 2022';
 
 function countdown() {
@@ -22,7 +21,7 @@ function countdown() {
     secondsE1.innerHTML = formatTime(seconds)
 }
 
-function formatTime(time){
+function formatTime(time) {
     return time < 10 ? (`0${time}`) : time;
 }
 
